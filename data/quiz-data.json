@@ -1,0 +1,122 @@
+{
+  "html": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyperlink and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correctAnswer": "Hyper Text Markup Language"
+    }
+  ],
+  "css": [
+    {
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": "Cascading Style Sheets"
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "options": [
+        "String",
+        "Number",
+        "Boolean",
+        "Character"
+      ],
+      "correctAnswer": "Character"
+    }
+  ],
+  "react": [
+    {
+      "question": "Which of the following is used in React.js to increase performance?",
+      "options": [
+        "Virtual DOM",
+        "Original DOM",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctAnswer": "Virtual DOM"
+    }
+  ],
+  "typescript": [
+    {
+      "question": "Which of the following is the correct syntax for declaring a variable with a specific type in TypeScript?",
+      "options": [
+        "var myVar: string = 'Hello';",
+        "var myVar = 'Hello' as string;",
+        "var myVar string = 'Hello';",
+        "string myVar = 'Hello';"
+      ],
+      "correctAnswer": "var myVar: string = 'Hello';"
+    }
+  ],
+  "nodejs": [
+    {
+      "question": "What is the default scope in Node.js application?",
+      "options": [
+        "Global",
+        "Local",
+        "Global Function",
+        "Local to object"
+      ],
+      "correctAnswer": "Local"
+    }
+  ],
+  "python": [
+    {
+      "question": "Which of the following is the correct extension of the Python file?",
+      "options": [
+        ".python",
+        ".pl",
+        ".py",
+        ".p"
+      ],
+      "correctAnswer": ".py"
+    }
+  ],
+  "java": [
+    {
+      "question": "Who invented Java Programming?",
+      "options": [
+        "Guido van Rossum",
+        "James Gosling",
+        "Dennis Ritchie",
+        "Bjarne Stroustrup"
+      ],
+      "correctAnswer": "James Gosling"
+    }
+  ],
+  "dsa": [
+    {
+      "question": "Which of the following is a linear data structure?",
+      "options": [
+        "Array",
+        "Tree",
+        "Graph",
+        "Trie"
+      ],
+      "correctAnswer": "Array"
+    }
+  ],
+  "oops": [
+    {
+      "question": "Which of the following is not an OOPS concept?",
+      "options": [
+        "Encapsulation",
+        "Polymorphism",
+        "Exception",
+        "Abstraction"
+      ],
+      "correctAnswer": "Exception"
+    }
+  ]
+}
