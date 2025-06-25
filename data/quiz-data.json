@@ -1,122 +1,272 @@
 {
   "html": [
-    {
-      "question": "What does HTML stand for?",
-      "options": [
-        "Hyper Text Markup Language",
-        "High Tech Modern Language",
-        "Hyperlink and Text Markup Language",
-        "Home Tool Markup Language"
-      ],
-      "correctAnswer": "Hyper Text Markup Language"
-    }
+    { "id": 1, "question": "What does HTML stand for?", "options": ["Hyper Tool Markup Language", "HyperText Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"], "correctAnswer": "HyperText Markup Language" },
+    { "id": 2, "question": "Which HTML tag is used to define an internal style sheet?", "options": ["<css>", "<style>", "<script>", "<link>"], "correctAnswer": "<style>" },
+    { "id": 3, "question": "What is the correct HTML element for inserting a line break?", "options": ["<lb>", "<break>", "<br>", "<line>"], "correctAnswer": "<br>" },
+    { "id": 4, "question": "Which attribute is used to provide a unique name to an HTML element?", "options": ["class", "id", "name", "type"], "correctAnswer": "id" },
+    { "id": 5, "question": "Which HTML tag is used to define an unordered list?", "options": ["<ul>", "<ol>", "<li>", "<dl>"], "correctAnswer": "<ul>" },
+    { "id": 6, "question": "What is the purpose of the `data-*` attribute?", "options": ["To style elements", "To store custom data private to the page or application", "To link to a database", "To animate elements"], "correctAnswer": "To store custom data private to the page or application" },
+    { "id": 7, "question": "Which HTML5 element is used to specify a header for a document or section?", "options": ["<head>", "<heading>", "<header>", "<top>"], "correctAnswer": "<header>" },
+    { "id": 8, "question": "How can you make a numbered list?", "options": ["<dl>", "<ul>", "<ol>", "<list>"], "correctAnswer": "<ol>" },
+    { "id": 9, "question": "What is the correct HTML for creating a hyperlink?", "options": ["<a>http://www.example.com</a>", "<a href=\"http://www.example.com\">Example</a>", "<a url=\"http://www.example.com\">Example</a>", "<link>http://www.example.com</link>"], "correctAnswer": "<a href=\"http://www.example.com\">Example</a>" },
+    { "id": 10, "question": "Which character is used to indicate an end tag?", "options": ["<", "^", "*", "/"], "correctAnswer": "/" },
+    { "id": 11, "question": "Which HTML element is used to define description data in a description list?", "options": ["<li>", "<dd>", "<dt>", "<dl>"], "correctAnswer": "<dd>" },
+    { "id": 12, "question": "In HTML, which attribute is used to specify that an input field must be filled out?", "options": ["required", "validate", "placeholder", "formvalidate"], "correctAnswer": "required" },
+    { "id": 13, "question": "Which tag is used to embed a webpage within a webpage?", "options": ["<iframe>", "<embed>", "<frame>", "<nest>"], "correctAnswer": "<iframe>" },
+    { "id": 14, "question": "What are void elements in HTML?", "options": ["Elements with no content", "Elements that do not require a closing tag", "Elements that are not displayed", "Elements with a 'void' attribute"], "correctAnswer": "Elements that do not require a closing tag" },
+    { "id": 15, "question": "Which HTML tag is the root element of an HTML document?", "options": ["<body>", "<head>", "<html>", "<document>"], "correctAnswer": "<html>" },
+    { "id": 16, "question": "Which attribute specifies an alternate text for an image, if the image cannot be displayed?", "options": ["src", "title", "longdesc", "alt"], "correctAnswer": "alt" },
+    { "id": 17, "question": "What is the purpose of the `<head>` tag?", "options": ["To contain the main content", "To contain metadata about the document", "To define a header for the page", "To link to external scripts"], "correctAnswer": "To contain metadata about the document" },
+    { "id": 18, "question": "Which tag is used to define a table row?", "options": ["<td>", "<th>", "<table>", "<tr>"], "correctAnswer": "<tr>" },
+    { "id": 19, "question": "Which of the following is an example of a block-level element?", "options": ["<span>", "<a>", "<img>", "<div>"], "correctAnswer": "<div>" },
+    { "id": 20, "question": "What does the `target=\"_blank\"` attribute do in an `<a>` tag?", "options": ["Opens the link in the same window", "Opens the link in a new tab or window", "Opens the link in the parent frame", "Opens the link in the full body of the window"], "correctAnswer": "Opens the link in a new tab or window" },
+    { "id": 21, "question": "Who is making the Web standards?", "options": ["Mozilla", "Google", "The World Wide Web Consortium", "Microsoft"], "correctAnswer": "The World Wide Web Consortium" },
+    { "id": 22, "question": "What is the correct HTML for adding a background color?", "options": ["<body bg=\"yellow\">", "<background>yellow</background>", "<body style=\"background-color:yellow;\">", "<body color=\"yellow\">"], "correctAnswer": "<body style=\"background-color:yellow;\">" },
+    { "id": 23, "question": "Which HTML element defines the title of a document?", "options": ["<meta>", "<title>", "<head>", "<header>"], "correctAnswer": "<title>" },
+    { "id": 24, "question": "Which input type defines a slider control?", "options": ["slider", "range", "controls", "search"], "correctAnswer": "range" },
+    { "id": 25, "question": "Which HTML element is used to display a scalar measurement within a known range?", "options": ["<gauge>", "<range>", "<meter>", "<progress>"], "correctAnswer": "<meter>" }
   ],
   "css": [
-    {
-      "question": "What does CSS stand for?",
-      "options": [
-        "Cascading Style Sheets",
-        "Creative Style Sheets",
-        "Computer Style Sheets",
-        "Colorful Style Sheets"
-      ],
-      "correctAnswer": "Cascading Style Sheets"
-    }
-  ],
-  "javascript": [
-    {
-      "question": "Which of the following is NOT a JavaScript data type?",
-      "options": [
-        "String",
-        "Number",
-        "Boolean",
-        "Character"
-      ],
-      "correctAnswer": "Character"
-    }
+    { "id": 1, "question": "What does CSS stand for?", "options": ["Creative Style Sheets", "Computer Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets"], "correctAnswer": "Cascading Style Sheets" },
+    { "id": 2, "question": "Which HTML attribute is used to define inline styles?", "options": ["class", "styles", "font", "style"], "correctAnswer": "style" },
+    { "id": 3, "question": "Which is the correct CSS syntax?", "options": ["{body;color:black;}", "body:color=black;", "body {color: black;}", "body-color: black;"], "correctAnswer": "body {color: black;}" },
+    { "id": 4, "question": "How do you insert a comment in a CSS file?", "options": ["// this is a comment", "/* this is a comment */", "' this is a comment", "<!-- this is a comment -->"], "correctAnswer": "/* this is a comment */" },
+    { "id": 5, "question": "Which property is used to change the background color?", "options": ["color", "bgcolor", "background-color", "background"], "correctAnswer": "background-color" },
+    { "id": 6, "question": "How do you add a background color for all `<h1>` elements?", "options": ["h1 {background-color:#FFFFFF;}", "all.h1 {background-color:#FFFFFF;}", "h1.all {background-color:#FFFFFF;}", "h1 {bgcolor:#FFFFFF;}"], "correctAnswer": "h1 {background-color:#FFFFFF;}" },
+    { "id": 7, "question": "Which CSS property is used to change the text color of an element?", "options": ["fgcolor", "text-color", "color", "font-color"], "correctAnswer": "color" },
+    { "id": 8, "question": "Which CSS property controls the text size?", "options": ["font-style", "text-size", "font-size", "text-style"], "correctAnswer": "font-size" },
+    { "id": 9, "question": "What is the correct CSS syntax for making all the `<p>` elements bold?", "options": ["<p style=\"font-size:bold;\">", "p {text-size:bold;}", "<p style=\"text-size:bold;\">", "p {font-weight:bold;}"], "correctAnswer": "p {font-weight:bold;}" },
+    { "id": 10, "question": "How do you display hyperlinks without an underline?", "options": ["a {underline:none;}", "a {text-decoration:none;}", "a {decoration:no-underline;}", "a {text-decoration:no-underline;}"], "correctAnswer": "a {text-decoration:none;}" },
+    { "id": 11, "question": "How do you make each word in a text start with a capital letter?", "options": ["text-transform:capitalize", "text-style:capitalize", "You can't do that with CSS", "text-transform:uppercase"], "correctAnswer": "text-transform:capitalize" },
+    { "id": 12, "question": "Which property is used to change the font of an element?", "options": ["font-weight", "font-style", "font-family", "font-variant"], "correctAnswer": "font-family" },
+    { "id": 13, "question": "How do you make the text bold?", "options": ["font:bold;", "font-weight:bold;", "style:bold;", "font-style:bold;"], "correctAnswer": "font-weight:bold;" },
+    { "id": 14, "question": "How do you select an element with id 'demo'?", "options": [".demo", "#demo", "demo", "*demo"], "correctAnswer": "#demo" },
+    { "id": 15, "question": "How do you select elements with class name 'test'?", "options": ["#test", "test", ".test", "*test"], "correctAnswer": ".test" },
+    { "id": 16, "question": "How do you select all p elements inside a div element?", "options": ["div.p", "div p", "div + p", "div > p"], "correctAnswer": "div p" },
+    { "id": 17, "question": "What is the default value of the position property?", "options": ["relative", "fixed", "absolute", "static"], "correctAnswer": "static" },
+    { "id": 18, "question": "Which property is used to set the spacing between lines of text?", "options": ["line-height", "letter-spacing", "spacing", "line-spacing"], "correctAnswer": "line-height" },
+    { "id": 19, "question": "What does the CSS `box-sizing: border-box;` do?", "options": ["It includes padding and border in the element's total width and height.", "It makes the box a square.", "It adds a border around the box.", "It removes the box model entirely."], "correctAnswer": "It includes padding and border in the element's total width and height." },
+    { "id": 20, "question": "Which CSS property is used to create space between the element's border and its content?", "options": ["margin", "padding", "spacing", "border-spacing"], "correctAnswer": "padding" },
+    { "id": 21, "question": "Which CSS property is used to create space around elements, outside of any defined borders?", "options": ["margin", "padding", "spacing", "outline"], "correctAnswer": "margin" },
+    { "id": 22, "question": "What does the `z-index` property do?", "options": ["Specifies the stack order of an element", "Changes the opacity of an element", "Sets the zoom level", "Controls the text alignment"], "correctAnswer": "Specifies the stack order of an element" },
+    { "id": 23, "question": "Which value of the `display` property makes an element behave like a block element but flow like an inline element?", "options": ["block", "inline", "inline-block", "flex"], "correctAnswer": "inline-block" },
+    { "id": 24, "question": "How can you make a list display its items horizontally?", "options": ["list-style-type: horizontal;", "display: inline;", "display: horizontal;", "float: left;"], "correctAnswer": "display: inline;" },
+    { "id": 25, "question": "Which CSS property is used to specify the type of list item marker?", "options": ["list-style-type", "list-marker", "marker-style", "list-type"], "correctAnswer": "list-style-type" }
   ],
   "react": [
-    {
-      "question": "Which of the following is used in React.js to increase performance?",
-      "options": [
-        "Virtual DOM",
-        "Original DOM",
-        "Both A and B",
-        "None of the above"
-      ],
-      "correctAnswer": "Virtual DOM"
-    }
+    { "id": 1, "question": "What is React?", "options": ["A JavaScript framework", "A JavaScript library for building user interfaces", "A server-side language", "A database"], "correctAnswer": "A JavaScript library for building user interfaces" },
+    { "id": 2, "question": "Which company developed ReactJS?", "options": ["Google", "Facebook", "Microsoft", "Twitter"], "correctAnswer": "Facebook" },
+    { "id": 3, "question": "What is JSX?", "options": ["A syntax extension for JavaScript", "A templating engine", "A CSS preprocessor", "A database query language"], "correctAnswer": "A syntax extension for JavaScript" },
+    { "id": 4, "question": "Can web browsers read JSX directly?", "options": ["Yes", "No", "Only in development mode", "Only with specific plugins"], "correctAnswer": "No" },
+    { "id": 5, "question": "What is the virtual DOM?", "options": ["A simplified version of the DOM", "A backup of the DOM", "A virtual representation of the DOM kept in memory", "A server-side DOM"], "correctAnswer": "A virtual representation of the DOM kept in memory" },
+    { "id": 6, "question": "What are props in React?", "options": ["Internal state of a component", "Arguments passed into React components", "Lifecycle methods", "Event handlers"], "correctAnswer": "Arguments passed into React components" },
+    { "id": 7, "question": "What is state in React?", "options": ["An object that determines how a component renders and behaves", "A permanent storage", "An external data source", "A function passed to a component"], "correctAnswer": "An object that determines how a component renders and behaves" },
+    { "id": 8, "question": "How do you update the state of a component?", "options": ["By directly modifying `this.state`", "Using the `this.setState()` method", "By calling a special `updateState()` function", "It updates automatically"], "correctAnswer": "Using the `this.setState()` method" },
+    { "id": 9, "question": "What is the purpose of the `key` prop in React lists?", "options": ["To style elements", "To uniquely identify elements in an array", "To set the order of elements", "To pass data to elements"], "correctAnswer": "To uniquely identify elements in an array" },
+    { "id": 10, "question": "What is a React Hook?", "options": ["A feature for catching fish", "A function that lets you 'hook into' React state and lifecycle features from function components", "A type of component", "A way to handle routing"], "correctAnswer": "A function that lets you 'hook into' React state and lifecycle features from function components" },
+    { "id": 11, "question": "Which Hook is used to manage state in a functional component?", "options": ["useEffect", "useState", "useContext", "useReducer"], "correctAnswer": "useState" },
+    { "id": 12, "question": "Which Hook is used to perform side effects in functional components?", "options": ["useState", "useReducer", "useEffect", "useCallback"], "correctAnswer": "useEffect" },
+    { "id": 13, "question": "What is the difference between a functional component and a class component?", "options": ["Functional components cannot have state", "Class components use a `render` method", "Functional components are faster", "All of the above are true in some contexts"], "correctAnswer": "All of the above are true in some contexts" },
+    { "id": 14, "question": "What is prop drilling?", "options": ["A performance optimization technique", "Passing props from a parent to a deeply nested child", "A way to drill holes in components", "A method for fetching data"], "correctAnswer": "Passing props from a parent to a deeply nested child" },
+    { "id": 15, "question": "What is the Context API used for?", "options": ["To manage routing", "To pass data through the component tree without prop drilling", "To handle animations", "To manage global state in a simple way"], "correctAnswer": "To pass data through the component tree without prop drilling" },
+    { "id": 16, "question": "What is a higher-order component (HOC)?", "options": ["A component with many child components", "A function that takes a component and returns a new component with additional props or logic", "A component that is rendered at the top of the component tree", "A component with advanced styling"], "correctAnswer": "A function that takes a component and returns a new component with additional props or logic" },
+    { "id": 17, "question": "What is the purpose of `render()` in a React class component?", "options": ["To handle user input", "To return the JSX that should be rendered", "To update the component's state", "To perform side effects"], "correctAnswer": "To return the JSX that should be rendered" },
+    { "id": 18, "question": "What command is used to create a new React app using Create React App?", "options": ["npm create-react-app my-app", "npx new-react-app my-app", "npx create-react-app my-app", "npm init react-app my-app"], "correctAnswer": "npx create-react-app my-app" },
+    { "id": 19, "question": "What are React Fragments used for?", "options": ["To add borders to components", "To group a list of children without adding extra nodes to the DOM", "To create component templates", "To break components into smaller pieces"], "correctAnswer": "To group a list of children without adding extra nodes to the DOM" },
+    { "id": 20, "question": "What is a controlled component in React forms?", "options": ["A component that controls its own state", "An input form element whose value is controlled by React state", "A component that cannot be modified", "A component with strict validation rules"], "correctAnswer": "An input form element whose value is controlled by React state" },
+    { "id": 21, "question": "What is Redux?", "options": ["A React component", "A predictable state container for JavaScript apps", "A styling library", "A routing library"], "correctAnswer": "A predictable state container for JavaScript apps" },
+    { "id": 22, "question": "What are the three core principles of Redux?", "options": ["Single source of truth, State is mutable, Changes are made with impure functions", "Single source of truth, State is read-only, Changes are made with pure functions", "Multiple sources of truth, State is read-only, Changes are made with pure functions", "Single source of truth, State is read-only, Changes are made with impure functions"], "correctAnswer": "Single source of truth, State is read-only, Changes are made with pure functions" },
+    { "id": 23, "question": "What is the purpose of the `useCallback` hook?", "options": ["To manage component state", "To memoize a function, preventing unnecessary re-creations", "To perform side effects", "To access context"], "correctAnswer": "To memoize a function, preventing unnecessary re-creations" },
+    { "id": 24, "question": "What is the purpose of the `useMemo` hook?", "options": ["To memoize the result of a calculation, preventing it from being re-calculated on every render", "To manage component memory usage", "To memoize components", "To handle asynchronous operations"], "correctAnswer": "To memoize the result of a calculation, preventing it from being re-calculated on every render" },
+    { "id": 25, "question": "What does `React.lazy` do?", "options": ["Makes a component render slowly", "Lets you render a dynamic import as a regular component (code-splitting)", "A hook for lazy loading images", "Prevents a component from rendering"], "correctAnswer": "Lets you render a dynamic import as a regular component (code-splitting)" }
+  ],
+  "javascript": [
+    { "id": 1, "question": "Which of the following is NOT a primitive data type in JavaScript?", "options": ["String", "Number", "Boolean", "Object"], "correctAnswer": "Object" },
+    { "id": 2, "question": "What is the difference between `==` and `===`?", "options": ["They are the same", "`==` performs type coercion, while `===` does not", "`===` performs type coercion, while `==` does not", "`===` is faster"], "correctAnswer": "`==` performs type coercion, while `===` does not" },
+    { "id": 3, "question": "What does the `typeof` operator return for `null`?", "options": ["'null'", "'undefined'", "'object'", "'number'"], "correctAnswer": "'object'" },
+    { "id": 4, "question": "What is a closure in JavaScript?", "options": ["A way to close a web browser window", "A function having access to the parent scope, even after the parent function has closed", "A way to block access to a variable", "A type of event"], "correctAnswer": "A function having access to the parent scope, even after the parent function has closed" },
+    { "id": 5, "question": "What is hoisting in JavaScript?", "options": ["A way to lift heavy data", "A mechanism where variables and function declarations are moved to the top of their containing scope before code execution", "A way to deploy applications", "A design pattern"], "correctAnswer": "A mechanism where variables and function declarations are moved to the top of their containing scope before code execution" },
+    { "id": 6, "question": "What will be the output of `3 + 2 + '7'`?", "options": ["'327'", "'12'", "'57'", "57"], "correctAnswer": "'57'" },
+    { "id": 7, "question": "Which keyword is used to declare a variable that cannot be reassigned?", "options": ["var", "let", "const", "static"], "correctAnswer": "const" },
+    { "id": 8, "question": "What is an Immediately Invoked Function Expression (IIFE)?", "options": ["A function that is called immediately after it is defined", "A function that is invoked by an event", "A function that returns another function", "A recursive function"], "correctAnswer": "A function that is called immediately after it is defined" },
+    { "id": 9, "question": "What does the `this` keyword refer to in a regular function call?", "options": ["The function itself", "The global object (window in browsers)", "The parent object", "null"], "correctAnswer": "The global object (window in browsers)" },
+    { "id": 10, "question": "What is the purpose of the `bind` method?", "options": ["To bind two functions together", "To create a new function that, when called, has its `this` keyword set to the provided value", "To attach an event listener", "To connect to a database"], "correctAnswer": "To create a new function that, when called, has its `this` keyword set to the provided value" },
+    { "id": 11, "question": "What is an arrow function?", "options": ["A shorter syntax for writing function expressions", "A function that always returns an array", "A function used for drawing arrows on a canvas", "A function that cannot have parameters"], "correctAnswer": "A shorter syntax for writing function expressions" },
+    { "id": 12, "question": "What is a Promise in JavaScript?", "options": ["An object representing the eventual completion or failure of an asynchronous operation", "A guarantee that a function will execute without errors", "A way to declare variables", "A type of event"], "correctAnswer": "An object representing the eventual completion or failure of an asynchronous operation" },
+    { "id": 13, "question": "What is the purpose of `async/await`?", "options": ["To make code run faster", "To provide a more synchronous-looking syntax for working with Promises", "To declare asynchronous variables", "To handle all types of errors"], "correctAnswer": "To provide a more synchronous-looking syntax for working with Promises" },
+    { "id": 14, "question": "What is the DOM?", "options": ["A data-only model", "A programming interface for web documents", "A type of JavaScript framework", "A server-side technology"], "correctAnswer": "A programming interface for web documents" },
+    { "id": 15, "question": "How do you select an HTML element with the id 'my-element' using JavaScript?", "options": ["`document.getElement('#my-element')`", "`document.getElementById('my-element')`", "`document.querySelector('#my-element')`", "Both B and C"], "correctAnswer": "Both B and C" },
+    { "id": 16, "question": "What is event bubbling?", "options": ["When an event gets smaller and smaller", "A method of event handling where an event is first captured and handled by the innermost element and then propagated to outer elements", "An error that occurs with events", "A feature for creating bubble animations"], "correctAnswer": "A method of event handling where an event is first captured and handled by the innermost element and then propagated to outer elements" },
+    { "id": 17, "question": "What is `NaN` and what is its type?", "options": ["Not a Number, type 'number'", "Not a Node, type 'object'", "Null and None, type 'undefined'", "No Action Needed, type 'function'"], "correctAnswer": "Not a Number, type 'number'" },
+    { "id": 18, "question": "How can you check if a variable is an array?", "options": ["`typeof myVar === 'array'`", "`Array.isArray(myVar)`", "`myVar instanceof Array`", "Both B and C"], "correctAnswer": "Both B and C" },
+    { "id": 19, "question": "What is the difference between `let` and `var`?", "options": ["`let` is function-scoped, `var` is block-scoped", "`let` is block-scoped, `var` is function-scoped", "They are the same", "`let` cannot be reassigned"], "correctAnswer": "`let` is block-scoped, `var` is function-scoped" },
+    { "id": 20, "question": "What is the spread operator (`...`) used for?", "options": ["To multiply numbers", "To expand iterables like arrays or strings into individual elements", "To create a comment", "To select all elements"], "correctAnswer": "To expand iterables like arrays or strings into individual elements" },
+    { "id": 21, "question": "What is object destructuring?", "options": ["A way to delete properties from an object", "A syntax for unpacking values from arrays or properties from objects into distinct variables", "A method for combining objects", "A way to create a deep copy of an object"], "correctAnswer": "A syntax for unpacking values from arrays or properties from objects into distinct variables" },
+    { "id": 22, "question": "What is the purpose of the `map` method on arrays?", "options": ["To iterate over an array without returning a value", "To create a new array with the results of calling a provided function on every element in the calling array", "To filter elements in an array", "To find an element in an array"], "correctAnswer": "To create a new array with the results of calling a provided function on every element in the calling array" },
+    { "id": 23, "question": "What is the purpose of the `filter` method on arrays?", "options": ["To modify elements in an array", "To create a new array with all elements that pass the test implemented by the provided function", "To sort an array", "To reverse an array"], "correctAnswer": "To create a new array with all elements that pass the test implemented by the provided function" },
+    { "id": 24, "question": "What is prototypal inheritance?", "options": ["A design pattern for creating objects", "A feature where objects can inherit properties and methods from other objects", "A way to define private properties", "A method for creating classes"], "correctAnswer": "A feature where objects can inherit properties and methods from other objects" },
+    { "id": 25, "question": "What does 'strict mode' do in JavaScript?", "options": ["Makes code run faster", "It enforces stricter parsing and error handling on your code at runtime", "Allows the use of modern syntax", "Disables certain features for security"], "correctAnswer": "It enforces stricter parsing and error handling on your code at runtime" }
   ],
   "typescript": [
-    {
-      "question": "Which of the following is the correct syntax for declaring a variable with a specific type in TypeScript?",
-      "options": [
-        "var myVar: string = 'Hello';",
-        "var myVar = 'Hello' as string;",
-        "var myVar string = 'Hello';",
-        "string myVar = 'Hello';"
-      ],
-      "correctAnswer": "var myVar: string = 'Hello';"
-    }
+    { "id": 1, "question": "What is TypeScript?", "options": ["A new programming language", "A superset of JavaScript that adds static typing", "A database", "A framework for building mobile apps"], "correctAnswer": "A superset of JavaScript that adds static typing" },
+    { "id": 2, "question": "Which of the following is a benefit of using TypeScript?", "options": ["Early error detection", "Improved code readability and maintainability", "Enhanced IDE support", "All of the above"], "correctAnswer": "All of the above" },
+    { "id": 3, "question": "How do you define a variable with a specific type in TypeScript?", "options": ["let name = 'John': string;", "let name: string = 'John';", "string name = 'John';", "let name = string('John');"], "correctAnswer": "let name: string = 'John';" },
+    { "id": 4, "question": "What is an interface in TypeScript?", "options": ["A way to define the structure of an object", "A class that cannot be instantiated", "A type of loop", "A built-in data type"], "correctAnswer": "A way to define the structure of an object" },
+    { "id": 5, "question": "What is the `any` type in TypeScript?", "options": ["A type for numbers", "A type that represents any JavaScript value, opting out of type checking", "A type for strings", "A type for booleans"], "correctAnswer": "A type that represents any JavaScript value, opting out of type checking" },
+    { "id": 6, "question": "How do you define an optional property in an interface?", "options": ["Using the `optional` keyword", "By adding a `?` after the property name", "Using the `maybe` keyword", "It's not possible"], "correctAnswer": "By adding a `?` after the property name" },
+    { "id": 7, "question": "What is an enum in TypeScript?", "options": ["A way to define a set of named constants", "A type of array", "A special kind of function", "A utility for enumerating object properties"], "correctAnswer": "A way to define a set of named constants" },
+    { "id": 8, "question": "What is the difference between an interface and a type alias?", "options": ["Interfaces can be merged, type aliases cannot", "Interfaces can be implemented by classes, type aliases cannot", "Type aliases can use union types, interfaces cannot", "All of the above are key differences"], "correctAnswer": "All of the above are key differences" },
+    { "id": 9, "question": "What is a tuple in TypeScript?", "options": ["An array with a fixed number of elements whose types are known", "A special type of object", "An immutable array", "A key-value pair"], "correctAnswer": "An array with a fixed number of elements whose types are known" },
+    { "id": 10, "question": "What does the `never` type represent?", "options": ["A value that is never assigned", "A function that never returns a value (e.g., always throws an error)", "An alias for `void`", "A type that can be `null` or `undefined`"], "correctAnswer": "A function that never returns a value (e.g., always throws an error)" },
+    { "id": 11, "question": "What is type assertion in TypeScript?", "options": ["A way to tell the compiler to treat a value as a different type", "A way to check the type of a variable at runtime", "A way to define a new type", "A way to create a type guard"], "correctAnswer": "A way to tell the compiler to treat a value as a different type" },
+    { "id": 12, "question": "Which keyword is used to inherit a class in TypeScript?", "options": ["inherits", "implements", "extends", "super"], "correctAnswer": "extends" },
+    { "id": 13, "question": "What are access modifiers in TypeScript?", "options": ["Functions that modify access levels", "Keywords that set the accessibility of properties and methods in a class", "Special comments for access control", "Objects that manage permissions"], "correctAnswer": "Keywords that set the accessibility of properties and methods in a class" },
+    { "id": 14, "question": "Which of the following is NOT a valid access modifier in TypeScript?", "options": ["public", "private", "protected", "internal"], "correctAnswer": "internal" },
+    { "id": 15, "question": "What is a generic in TypeScript?", "options": ["A way to create reusable components that can work with a variety of types", "A generic type that can be anything", "A base class for all other classes", "A type of decorator"], "correctAnswer": "A way to create reusable components that can work with a variety of types" },
+    { "id": 16, "question": "What is the purpose of the `tsconfig.json` file?", "options": ["To store TypeScript code", "To configure the TypeScript compiler options for a project", "To list project dependencies", "To define the user interface"], "correctAnswer": "To configure the TypeScript compiler options for a project" },
+    { "id": 17, "question": "What is a union type?", "options": ["A type that can be one of several types", "A type that combines multiple types into one", "A type that is unique across the application", "A type for arrays"], "correctAnswer": "A type that can be one of several types" },
+    { "id": 18, "question": "What is an intersection type?", "options": ["A type that can be one of several types", "A type that combines multiple types into one, having all properties of all types", "A type that finds the common properties between types", "A type that is used for mathematical intersections"], "correctAnswer": "A type that combines multiple types into one, having all properties of all types" },
+    { "id": 19, "question": "What is a type guard?", "options": ["A function that performs a runtime check that guarantees the type in some scope", "A way to protect types from being modified", "A compiler feature that guards against type errors", "A special type of interface"], "correctAnswer": "A function that performs a runtime check that guarantees the type in some scope" },
+    { "id": 20, "question": "How does TypeScript handle `null` and `undefined`?", "options": ["It treats them as the same type", "With `strictNullChecks`, they are distinct types and cannot be assigned to other types without a union", "It automatically converts them to `any`", "They are not valid types in TypeScript"], "correctAnswer": "With `strictNullChecks`, they are distinct types and cannot be assigned to other types without a union" },
+    { "id": 21, "question": "What is the `readonly` modifier used for?", "options": ["To make a file read-only", "To prevent a property of an object from being modified after its initial assignment", "To declare a constant variable", "To make a function pure"], "correctAnswer": "To prevent a property of an object from being modified after its initial assignment" },
+    { "id": 22, "question": "What is an abstract class?", "options": ["A class that cannot be instantiated directly and is meant to be subclassed", "A class with no methods", "A class that is not part of the main application logic", "A class that is defined in a separate file"], "correctAnswer": "A class that cannot be instantiated directly and is meant to be subclassed" },
+    { "id": 23, "question": "What is the file extension for TypeScript files?", "options": [".js", ".ts", ".tsc", ".tt"], "correctAnswer": ".ts" },
+    { "id": 24, "question": "What is the file extension for TypeScript files that contain JSX?", "options": [".jsx", ".tsx", ".ts.jsx", ".js"], "correctAnswer": ".tsx" },
+    { "id": 25, "question": "What is a decorator in TypeScript?", "options": ["A special kind of declaration that can be attached to a class, method, accessor, property, or parameter", "A function for styling components", "A way to add comments to code", "A design pattern"], "correctAnswer": "A special kind of declaration that can be attached to a class, method, accessor, property, or parameter" }
   ],
   "nodejs": [
-    {
-      "question": "What is the default scope in Node.js application?",
-      "options": [
-        "Global",
-        "Local",
-        "Global Function",
-        "Local to object"
-      ],
-      "correctAnswer": "Local"
-    }
+    { "id": 1, "question": "What is Node.js?", "options": ["A web browser", "A JavaScript runtime environment that executes JavaScript code outside a web browser", "A database", "A CSS framework"], "correctAnswer": "A JavaScript runtime environment that executes JavaScript code outside a web browser" },
+    { "id": 2, "question": "Which JavaScript engine does Node.js use?", "options": ["SpiderMonkey", "JavaScriptCore", "Chakra", "V8"], "correctAnswer": "V8" },
+    { "id": 3, "question": "What is NPM?", "options": ["Node Project Manager", "Node Package Manager", "New Project Manager", "New Package Manager"], "correctAnswer": "Node Package Manager" },
+    { "id": 4, "question": "What is the purpose of the `package.json` file?", "options": ["It contains the source code of the application", "It lists the packages the project depends on and specifies versions", "It is the entry point of the application", "It is used for storing user data"], "correctAnswer": "It lists the packages the project depends on and specifies versions" },
+    { "id": 5, "question": "How do you include a module in Node.js?", "options": ["Using the `include()` function", "Using the `import` statement", "Using the `require()` function", "Using the `<script>` tag"], "correctAnswer": "Using the `require()` function" },
+    { "id": 6, "question": "What is the event loop in Node.js?", "options": ["A loop that iterates over events in the browser", "A mechanism that allows Node.js to perform non-blocking I/O operations", "A way to handle user interface events", "A design pattern for creating loops"], "correctAnswer": "A mechanism that allows Node.js to perform non-blocking I/O operations" },
+    { "id": 7, "question": "Is Node.js single-threaded or multi-threaded?", "options": ["Multi-threaded", "Single-threaded, but it can handle concurrency via the event loop and worker threads", "It can be both", "It is neither"], "correctAnswer": "Single-threaded, but it can handle concurrency via the event loop and worker threads" },
+    { "id": 8, "question": "What is a callback function in Node.js?", "options": ["A function that is called when an asynchronous operation completes", "A function that calls another function", "A synchronous function", "A function that is part of the Node.js core"], "correctAnswer": "A function that is called when an asynchronous operation completes" },
+    { "id": 9, "question": "What is 'callback hell'?", "options": ["A type of error in Node.js", "A situation with many nested callbacks, making the code hard to read and maintain", "A feature for handling multiple callbacks", "A performance issue"], "correctAnswer": "A situation with many nested callbacks, making the code hard to read and maintain" },
+    { "id": 10, "question": "How can you avoid callback hell?", "options": ["Using Promises", "Using `async/await`", "Using modularization", "All of the above"], "correctAnswer": "All of the above" },
+    { "id": 11, "question": "What is the purpose of the `module.exports` object?", "options": ["To import modules", "To define what a module exports and makes available to other modules", "To configure a module", "To delete a module"], "correctAnswer": "To define what a module exports and makes available to other modules" },
+    { "id": 12, "question": "Which of the following is a core module in Node.js?", "options": ["express", "lodash", "http", "request"], "correctAnswer": "http" },
+    { "id": 13, "question": "How do you create a simple HTTP server in Node.js?", "options": ["Using the `express()` function", "Using the `http.createServer()` method", "Using the `net.createServer()` method", "Using the `server.listen()` method"], "correctAnswer": "Using the `http.createServer()` method" },
+    { "id": 14, "question": "What are streams in Node.js?", "options": ["A way to handle streaming video", "Collections of data that might not be available all at once and don't have to fit in memory", "A type of event", "A way to manage threads"], "correctAnswer": "Collections of data that might not be available all at once and don't have to fit in memory" },
+    { "id": 15, "question": "Which of the following is a type of stream in Node.js?", "options": ["Readable", "Writable", "Duplex", "All of the above"], "correctAnswer": "All of the above" },
+    { "id": 16, "question": "What is the purpose of the `fs` module?", "options": ["To handle form submissions", "To handle file system operations", "To format strings", "To manage sessions"], "correctAnswer": "To handle file system operations" },
+    { "id": 17, "question": "What is the difference between `fs.readFile()` and `fs.readFileSync()`?", "options": ["There is no difference", "`readFile()` is asynchronous, while `readFileSync()` is synchronous (blocking)", "`readFileSync()` is faster", "`readFile()` can only read text files"], "correctAnswer": "`readFile()` is asynchronous, while `readFileSync()` is synchronous (blocking)" },
+    { "id": 18, "question": "What is middleware in the context of Express.js?", "options": ["A database driver", "A function that has access to the request object, the response object, and the next middleware function in the application’s request-response cycle", "A templating engine", "A security feature"], "correctAnswer": "A function that has access to the request object, the response object, and the next middleware function in the application’s request-response cycle" },
+    { "id": 19, "question": "What is the purpose of the `path` module?", "options": ["To find the shortest path between two nodes", "To provide utilities for working with file and directory paths", "To define application routes", "To manage user authentication"], "correctAnswer": "To provide utilities for working with file and directory paths" },
+    { "id": 20, "question": "What is REPL in Node.js?", "options": ["A testing framework", "A Read-Eval-Print Loop interactive shell", "A remote event-processing library", "A request-execution-pipe-line"], "correctAnswer": "A Read-Eval-Print Loop interactive shell" },
+    { "id": 21, "question": "How can you handle errors in asynchronous Node.js code?", "options": ["Using `try...catch` with `async/await`", "Using the `.catch()` method with Promises", "Passing an error object as the first argument to callback functions", "All of the above"], "correctAnswer": "All of the above" },
+    { "id": 22, "question": "What is the `Buffer` class in Node.js used for?", "options": ["To create a buffer zone in memory", "To handle binary data", "To buffer requests", "To store temporary data"], "correctAnswer": "To handle binary data" },
+    { "id": 23, "question": "What is an `EventEmitter` in Node.js?", "options": ["A function that emits events", "A class that facilitates communication between objects in Node.js", "An object for handling browser events", "A way to create custom HTML events"], "correctAnswer": "A class that facilitates communication between objects in Node.js" },
+    { "id": 24, "question": "What is the difference between `fork()` and `spawn()` in the `child_process` module?", "options": ["They are identical", "`fork()` is a special case of `spawn()` for creating new Node.js processes", "`spawn()` is for synchronous operations, `fork()` is for asynchronous", "`fork()` is deprecated"], "correctAnswer": "`fork()` is a special case of `spawn()` for creating new Node.js processes" },
+    { "id": 25, "question": "What does `process.nextTick()` do?", "options": ["Pauses the process for one tick", "Schedules a callback function to be executed in the next iteration of the event loop", "Returns the time until the next tick", "Exits the process"], "correctAnswer": "Schedules a callback function to be executed in the next iteration of the event loop" }
   ],
   "python": [
-    {
-      "question": "Which of the following is the correct extension of the Python file?",
-      "options": [
-        ".python",
-        ".pl",
-        ".py",
-        ".p"
-      ],
-      "correctAnswer": ".py"
-    }
-  ],
-  "java": [
-    {
-      "question": "Who invented Java Programming?",
-      "options": [
-        "Guido van Rossum",
-        "James Gosling",
-        "Dennis Ritchie",
-        "Bjarne Stroustrup"
-      ],
-      "correctAnswer": "James Gosling"
-    }
+    { "id": 1, "question": "What keyword is used to define a function in Python?", "options": ["func", "function", "def", "define"], "correctAnswer": "def" },
+    { "id": 2, "question": "Which data type is used to store a sequence of characters?", "options": ["Char", "String", "str", "Text"], "correctAnswer": "str" },
+    { "id": 3, "question": "How do you get the length of a list named `my_list`?", "options": ["my_list.length()", "len(my_list)", "length(my_list)", "my_list.size"], "correctAnswer": "len(my_list)" },
+    { "id": 4, "question": "Which of the following is used for a single-line comment in Python?", "options": ["//", "/* */", "#", "---"], "correctAnswer": "#" },
+    { "id": 5, "question": "What is the correct way to create a dictionary in Python?", "options": ["{ 'key': 'value' }", "[ 'key', 'value' ]", "( 'key', 'value' )", "< 'key': 'value' >"], "correctAnswer": "{ 'key': 'value' }" },
+    { "id": 6, "question": "Which method is used to add an item to the end of a list?", "options": ["add()", "push()", "insert()", "append()"], "correctAnswer": "append()" },
+    { "id": 7, "question": "How do you start a `for` loop to iterate from 0 to 4?", "options": ["for i in range(5):", "for i in range(0, 4):", "for i in 1 to 5:", "for i in [0, 1, 2, 3, 4]:"], "correctAnswer": "for i in range(5):" },
+    { "id": 8, "question": "What is the correct syntax to create a class in Python?", "options": ["class MyClass:", "MyClass class:", "def class MyClass:", "create class MyClass:"], "correctAnswer": "class MyClass:" },
+    { "id": 9, "question": "How do you handle exceptions in Python?", "options": ["try...except", "try...catch", "if...error", "check...exception"], "correctAnswer": "try...except" },
+    { "id": 10, "question": "Which of these is NOT a built-in data type in Python?", "options": ["list", "tuple", "dict", "tree"], "correctAnswer": "tree" },
+    { "id": 11, "question": "What does the `strip()` method do on a string?", "options": ["Removes all characters", "Removes leading/trailing whitespace", "Converts to uppercase", "Splits the string"], "correctAnswer": "Removes leading/trailing whitespace" },
+    { "id": 12, "question": "Which keyword is used to import a module in Python?", "options": ["include", "import", "require", "use"], "correctAnswer": "import" },
+    { "id": 13, "question": "What is the result of `2 ** 3`?", "options": ["6", "5", "8", "9"], "correctAnswer": "8" },
+    { "id": 14, "question": "How do you get the current working directory?", "options": ["os.getcwd()", "os.cwd()", "os.dir()", "os.path()"], "correctAnswer": "os.getcwd()" },
+    { "id": 15, "question": "Which collection is ordered, changeable, and allows duplicate members?", "options": ["Tuple", "Set", "Dictionary", "List"], "correctAnswer": "List" },
+    { "id": 16, "question": "Which collection is unordered, unchangeable (immutable), and unindexed?", "options": ["List", "Tuple", "Set", "Dictionary"], "correctAnswer": "Set" },
+    { "id": 17, "question": "How do you create a lambda function in Python?", "options": ["def lambda x: x + 1", "lambda x: x + 1", "func lambda x => x + 1", "lambda(x) => x + 1"], "correctAnswer": "lambda x: x + 1" },
+    { "id": 18, "question": "What method can be used to read a file line by line?", "options": ["file.read()", "file.readline()", "file.read_lines()", "file.lines()"], "correctAnswer": "file.readline()" },
+    { "id": 19, "question": "What is the name of the constructor method in a Python class?", "options": ["__init__()", "__construct__()", "__main__()", "__start__()"], "correctAnswer": "__init__()" },
+    { "id": 20, "question": "Which keyword is used to refer to the current instance of a class?", "options": ["this", "current", "self", "instance"], "correctAnswer": "self" },
+    { "id": 21, "question": "What is the output of `bool('False')`?", "options": ["True", "False", "Error", "None"], "correctAnswer": "True" },
+    { "id": 22, "question": "How do you access the value associated with the key 'name' in a dictionary `d`?", "options": ["d.name", "d['name']", "d.get('name')", "Both B and C"], "correctAnswer": "Both B and C" },
+    { "id": 23, "question": "Which library is commonly used for data analysis and manipulation in Python?", "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"], "correctAnswer": "Pandas" },
+    { "id": 24, "question": "What does the `pass` statement do?", "options": ["Skips the current iteration", "Exits the loop", "Acts as a placeholder for future code", "Raises an exception"], "correctAnswer": "Acts as a placeholder for future code" },
+    { "id": 25, "question": "What is a virtual environment in Python?", "options": ["A simulated computer", "A tool to create isolated Python environments", "A Python IDE", "A cloud-based Python interpreter"], "correctAnswer": "A tool to create isolated Python environments" }
   ],
   "dsa": [
-    {
-      "question": "Which of the following is a linear data structure?",
-      "options": [
-        "Array",
-        "Tree",
-        "Graph",
-        "Trie"
-      ],
-      "correctAnswer": "Array"
-    }
+    { "id": 1, "question": "Which data structure uses LIFO (Last-In, First-Out)?", "options": ["Queue", "Stack", "Array", "Linked List"], "correctAnswer": "Stack" },
+    { "id": 2, "question": "What is the time complexity of accessing an element in a hash table on average?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "correctAnswer": "O(1)" },
+    { "id": 3, "question": "Which data structure is typically used for implementing a priority queue?", "options": ["Stack", "Queue", "Heap", "Array"], "correctAnswer": "Heap" },
+    { "id": 4, "question": "A binary search algorithm can be applied to...", "options": ["Any array", "A sorted array", "A linked list", "A queue"], "correctAnswer": "A sorted array" },
+    { "id": 5, "question": "Which data structure uses FIFO (First-In, First-Out)?", "options": ["Stack", "Tree", "Queue", "Graph"], "correctAnswer": "Queue" },
+    { "id": 6, "question": "What is the worst-case time complexity of Bubble Sort?", "options": ["O(n log n)", "O(log n)", "O(n)", "O(n^2)"], "correctAnswer": "O(n^2)" },
+    { "id": 7, "question": "A node in a singly linked list contains a data field and a...?", "options": ["Pointer to the previous node", "Pointer to the next node", "Pointer to the head node", "Pointer to the tail node"], "correctAnswer": "Pointer to the next node" },
+    { "id": 8, "question": "What data structure would be most efficient to find the 10th largest number in a very large, unsorted dataset?", "options": ["Stack", "Min-Heap of size 10", "Max-Heap of size 10", "Queue"], "correctAnswer": "Min-Heap of size 10" },
+    { "id": 9, "question": "Which of the following is a non-linear data structure?", "options": ["Array", "Stack", "Queue", "Tree"], "correctAnswer": "Tree" },
+    { "id": 10, "question": "The process of visiting each node in a tree is called...", "options": ["Traversal", "Searching", "Sorting", "Insertion"], "correctAnswer": "Traversal" },
+    { "id": 11, "question": "What is the depth of a root node in a tree?", "options": ["1", "-1", "0", "Depends on the tree"], "correctAnswer": "0" },
+    { "id": 12, "question": "Which sorting algorithm is known for its 'divide and conquer' strategy?", "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"], "correctAnswer": "Merge Sort" },
+    { "id": 13, "question": "In a graph, what is a path that visits each vertex exactly once?", "options": ["Eulerian Path", "Hamiltonian Path", "Simple Path", "Cycle"], "correctAnswer": "Hamiltonian Path" },
+    { "id": 14, "question": "What is the data structure used to manage function calls?", "options": ["Queue", "Stack", "Heap", "Tree"], "correctAnswer": "Stack" },
+    { "id": 15, "question": "Breadth-First Search (BFS) of a graph is typically implemented using a...?", "options": ["Stack", "Queue", "Array", "Linked List"], "correctAnswer": "Queue" },
+    { "id": 16, "question": "Depth-First Search (DFS) of a graph is typically implemented using a...?", "options": ["Stack", "Queue", "Array", "Linked List"], "correctAnswer": "Stack" },
+    { "id": 17, "question": "Which algorithm is used to find the shortest path in an unweighted graph?", "options": ["Dijkstra's Algorithm", "Bellman-Ford Algorithm", "Breadth-First Search (BFS)", "Depth-First Search (DFS)"], "correctAnswer": "Breadth-First Search (BFS)" },
+    { "id": 18, "question": "A complete binary tree is a binary tree in which...", "options": ["Every node has two children", "All leaves are at the same level", "All levels are completely filled except possibly the last, and the last level is filled from left to right", "The tree is perfectly balanced"], "correctAnswer": "All levels are completely filled except possibly the last, and the last level is filled from left to right" },
+    { "id": 19, "question": "The balance factor of a node in an AVL tree is...", "options": ["Height of left subtree - Height of right subtree", "Height of right subtree - Height of left subtree", "Number of nodes in left subtree - Number of nodes in right subtree", "Always 0"], "correctAnswer": "Height of left subtree - Height of right subtree" },
+    { "id": 20, "question": "What is a 'collision' in a hash table?", "options": ["When two keys are the same", "When two different keys map to the same hash value", "When the hash table is full", "When a key cannot be hashed"], "correctAnswer": "When two different keys map to the same hash value" },
+    { "id": 21, "question": "Which technique is used to handle collisions in hash tables?", "options": ["Chaining", "Open Addressing", "Double Hashing", "All of the above"], "correctAnswer": "All of the above" },
+    { "id": 22, "question": "A data structure where elements can be inserted or deleted at both ends but not in the middle is called a...", "options": ["Queue", "Stack", "Deque", "Priority Queue"], "correctAnswer": "Deque" },
+    { "id": 23, "question": "Which of the following algorithms is NOT a stable sorting algorithm?", "options": ["Insertion Sort", "Merge Sort", "Bubble Sort", "Quick Sort"], "correctAnswer": "Quick Sort" },
+    { "id": 24, "question": "A graph with no cycles is called a...", "options": ["Forest", "Tree", "Acyclic Graph", "Both B and C"], "correctAnswer": "Both B and C" },
+    { "id": 25, "question": "What is the space complexity of an algorithm?", "options": ["The time it takes to run", "The amount of memory it uses", "The number of lines of code", "The number of CPU cycles"], "correctAnswer": "The amount of memory it uses" }
   ],
   "oops": [
-    {
-      "question": "Which of the following is not an OOPS concept?",
-      "options": [
-        "Encapsulation",
-        "Polymorphism",
-        "Exception",
-        "Abstraction"
-      ],
-      "correctAnswer": "Exception"
-    }
-  ]
+    { "id": 1, "question": "Which of the following is not a core concept of OOPS?", "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"], "correctAnswer": "Compilation" },
+    { "id": 2, "question": "What is the concept of hiding the internal state and requiring all interaction to be done through an object's methods?", "options": ["Abstraction", "Inheritance", "Encapsulation", "Polymorphism"], "correctAnswer": "Encapsulation" },
+    { "id": 3, "question": "The ability of a class to derive properties from another class is called:", "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"], "correctAnswer": "Inheritance" },
+    { "id": 4, "question": "Which concept allows an object to take on many forms?", "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"], "correctAnswer": "Polymorphism" },
+    { "id": 5, "question": "A blueprint from which individual objects are created is called a:", "options": ["Object", "Class", "Method", "Variable"], "correctAnswer": "Class" },
+    { "id": 6, "question": "What is the term for a variable that belongs to a class, rather than an instance of a class?", "options": ["Instance variable", "Local variable", "Static variable", "Global variable"], "correctAnswer": "Static variable" },
+    { "id": 7, "question": "A method that is automatically called when an object is created is known as a:", "options": ["Destructor", "Constructor", "Initializer", "Main method"], "correctAnswer": "Constructor" },
+    { "id": 8, "question": "Which principle involves defining a simplified view of a complex system, showing only the relevant details?", "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"], "correctAnswer": "Abstraction" },
+    { "id": 9, "question": "The 'is-a' relationship between classes is best represented by:", "options": ["Composition", "Aggregation", "Inheritance", "Association"], "correctAnswer": "Inheritance" },
+    { "id": 10, "question": "The 'has-a' relationship between classes is best represented by:", "options": ["Inheritance", "Polymorphism", "Composition", "Abstraction"], "correctAnswer": "Composition" },
+    { "id": 11, "question": "Overloading is an example of which OOPS concept?", "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"], "correctAnswer": "Polymorphism" },
+    { "id": 12, "question": "Overriding is an example of which OOPS concept?", "options": ["Inheritance", "Polymorphism", "Encapsulation", "Both A and B"], "correctAnswer": "Both A and B" },
+    { "id": 13, "question": "A class that cannot be instantiated is called a(n):", "options": ["Concrete class", "Final class", "Abstract class", "Static class"], "correctAnswer": "Abstract class" },
+    { "id": 14, "question": "Which keyword is often used to prevent a class from being subclassed?", "options": ["static", "const", "private", "final"], "correctAnswer": "final" },
+    { "id": 15, "question": "In Java, what is the top-level class that all other classes inherit from?", "options": ["Main", "System", "Object", "Class"], "correctAnswer": "Object" },
+    { "id": 16, "question": "What does the `super` keyword refer to?", "options": ["The current class instance", "The superuser", "The immediate parent class of an object", "The top-level object"], "correctAnswer": "The immediate parent class of an object" },
+    { "id": 17, "question": "An interface in OOPS defines:", "options": ["A set of methods that a class must implement", "The implementation of a class", "The initial state of an object", "The memory layout of an object"], "correctAnswer": "A set of methods that a class must implement" },
+    { "id": 18, "question": "A method in a subclass that has the same name, parameters, and return type as a method in its superclass is an example of:", "options": ["Overloading", "Overriding", "Inheriting", "Encapsulating"], "correctAnswer": "Overriding" },
+    { "id": 19, "question": "What is the main purpose of a destructor?", "options": ["To create an object", "To release resources held by an object before it is destroyed", "To destroy a class", "To restart an object"], "correctAnswer": "To release resources held by an object before it is destroyed" },
+    { "id": 20, "question": "Which access modifier provides the most restrictive access?", "options": ["public", "protected", "private", "default"], "correctAnswer": "private" },
+    { "id": 21, "question": "The bundling of data and the methods that operate on that data into a single unit is called:", "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"], "correctAnswer": "Encapsulation" },
+    { "id": 22, "question": "If a class has more than one method with the same name but different numbers or types of parameters, this is called:", "options": ["Method overriding", "Method hiding", "Method overloading", "Method chaining"], "correctAnswer": "Method overloading" },
+    { "id": 23, "question": "Which of the following is an advantage of OOPS?", "options": ["Code reuse", "Data security", "Easy maintenance", "All of the above"], "correctAnswer": "All of the above" },
+    { "id": 24, "question": "A 'singleton' is a design pattern that...", "options": ["Restricts the instantiation of a class to a single object", "Allows only one method in a class", "Ensures a class has no subclasses", "Is used for single-threaded applications"], "correctAnswer": "Restricts the instantiation of a class to a single object" },
+    { "id": 25, "question": "Which keyword is often used to create an instance of a class?", "options": ["create", "instance", "new", "build"], "correctAnswer": "new" }
+  ],
+  "java": [
+  { "id": 1, "question": "What is JVM?", "options": ["Java Virtual Machine", "Java Variable Model", "Java Verified Module", "Joint Virtual Memory"], "correctAnswer": "Java Virtual Machine" },
+  { "id": 2, "question": "What does JRE stand for?", "options": ["Java Runtime Environment", "Java Run Event", "Java Run Engine", "Java Ready Environment"], "correctAnswer": "Java Runtime Environment" },
+  { "id": 3, "question": "Which component compiles Java source code into bytecode?", "options": ["JDK", "JVM", "JRE", "javac"], "correctAnswer": "javac" },
+  { "id": 4, "question": "Which keyword is used to inherit a class in Java?", "options": ["extends", "implements", "inherits", "super"], "correctAnswer": "extends" },
+  { "id": 5, "question": "Which keyword is used to implement an interface in Java?", "options": ["extends", "implements", "inherit", "instanceof"], "correctAnswer": "implements" },
+  { "id": 6, "question": "Which method is used to start a thread in Java?", "options": ["start()", "run()", "begin()", "execute()"], "correctAnswer": "start()" },
+  { "id": 7, "question": "What is the size of an `int` in Java?", "options": ["8-bit", "16-bit", "32-bit", "64-bit"], "correctAnswer": "32-bit" },
+  { "id": 8, "question": "Which keyword is used to prevent inheritance of a class?", "options": ["static", "abstract", "final", "const"], "correctAnswer": "final" },
+  { "id": 9, "question": "Which exception is thrown when an array is accessed out of bounds?", "options": ["NullPointerException", "ArrayIndexOutOfBoundsException", "IndexException", "IllegalArgumentException"], "correctAnswer": "ArrayIndexOutOfBoundsException" },
+  { "id": 10, "question": "Which access modifier makes members accessible only within the same class?", "options": ["public", "private", "protected", "default"], "correctAnswer": "private" },
+  { "id": 11, "question": "Which keyword is used to refer to the current object?", "options": ["self", "that", "this", "super"], "correctAnswer": "this" },
+  { "id": 12, "question": "Which of these is not a primitive type in Java?", "options": ["int", "float", "String", "boolean"], "correctAnswer": "String" },
+  { "id": 13, "question": "Which collection class does not allow duplicate elements?", "options": ["List", "Map", "Set", "Queue"], "correctAnswer": "Set" },
+  { "id": 14, "question": "Which keyword is used to create a new object?", "options": ["this", "create", "object", "new"], "correctAnswer": "new" },
+  { "id": 15, "question": "Which operator is used to compare two objects?", "options": ["==", "equals()", "=", "!"], "correctAnswer": "equals()" },
+  { "id": 16, "question": "What is the parent class of all classes in Java?", "options": ["Class", "Main", "Object", "System"], "correctAnswer": "Object" },
+  { "id": 17, "question": "Which package contains Scanner class?", "options": ["java.lang", "java.util", "java.io", "java.net"], "correctAnswer": "java.util" },
+  { "id": 18, "question": "What is method overloading?", "options": ["Redefining a method in subclass", "Defining multiple methods with same name but different signatures", "Inheriting methods", "Calling superclass methods"], "correctAnswer": "Defining multiple methods with same name but different signatures" },
+  { "id": 19, "question": "Which block is always executed whether exception occurs or not?", "options": ["try", "catch", "finally", "throw"], "correctAnswer": "finally" },
+  { "id": 20, "question": "Which keyword is used to throw an exception manually?", "options": ["throws", "try", "catch", "throw"], "correctAnswer": "throw" },
+  { "id": 21, "question": "Which class is used to handle files in Java?", "options": ["Scanner", "File", "FileReader", "FileWriter"], "correctAnswer": "File" },
+  { "id": 22, "question": "Which concept allows objects to take many forms?", "options": ["Encapsulation", "Abstraction", "Polymorphism", "Inheritance"], "correctAnswer": "Polymorphism" },
+  { "id": 23, "question": "What is an abstract class?", "options": ["A class that cannot have objects", "A class with no methods", "A class that must be final", "A class without constructor"], "correctAnswer": "A class that cannot have objects" },
+  { "id": 24, "question": "Which keyword is used to inherit from an abstract class?", "options": ["abstract", "extends", "implements", "interface"], "correctAnswer": "extends" },
+  { "id": 25, "question": "Which interface provides a blueprint for Java collections?", "options": ["Set", "Map", "List", "Collection"], "correctAnswer": "Collection" }
+]
 }
