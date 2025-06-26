@@ -1,98 +1,228 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# 🧠 InterviewPrep - Full Stack Quiz & Learning App
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+A beautifully designed full-stack **Interview Preparation Web App** built using **React (TypeScript)** and **NestJS**, empowering users to **learn**, **practice**, and **master** core programming topics through curated learning content and interactive quizzes.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+---
 
-## Description
+## 🚀 Features
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### 📘 Learning Page
+- Clean and modern **Glassmorphism UI**
+- Grid of **10 core programming topics**:
+  - HTML
+  - CSS
+  - JavaScript
+  - TypeScript
+  - React
+  - Node.js
+  - Python
+  - Java
+  - OOPS
+  - DSA
+- On hover: **"Learn"** and **"Start Quiz"** buttons for each topic
+- Hyper-detailed learning content for all topics with examples
 
-## Project setup
+### 🧪 Quiz System
+- **Topic-wise quizzes** with 50 multiple-choice questions per topic
+- **All-in-One Quiz** with 5 randomized questions across all topics
+- Each question contains:
+  - A question prompt
+  - Four multiple-choice options
+  - One correct answer
+- Score tracking and instant results at quiz end
+
+### ⚙️ Backend API
+- Built using **NestJS**
+- API endpoints for:
+  - Fetching questions by topic
+  - Fetching random questions from all topics
+  - Fetching learning content by topic
+- Modular architecture with DTOs and services
+
+### 🧑‍💻 Frontend
+- Built using **React + TypeScript**
+- Responsive, modern UI using **Tailwind CSS**
+- Component-based architecture
+- React Router for navigation
+- Axios for API communication
+
+---
+
+## 🧱 Project Structure
+
+### Frontend (React + TypeScript)
+client/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── utils/
+│ ├── App.tsx
+│ └── main.tsx
+
+shell
+Copy
+Edit
+
+### Backend (NestJS)
+server/
+├── src/
+│ ├── app.controller.ts
+│ ├── app.service.ts
+│ ├── app.module.ts
+│ ├── main.ts
+│ ├── questions/
+│ │ ├── questions.controller.ts
+│ │ ├── questions.service.ts
+│ │ ├── questions.module.ts
+│ │ └── questions.dto.ts
+│ ├── learning/
+│ │ ├── learning.controller.ts
+│ │ ├── learning.service.ts
+│ │ ├── learning.module.ts
+
+yaml
+Copy
+Edit
+
+---
+
+## 📚 Topics Covered
+
+Each topic includes:
+- Concepts & definitions
+- Syntax and code examples
+- Best practices
+- Interview-specific guidance
+
+**Included Topics:**
+- ✅ HTML
+- ✅ CSS
+- ✅ JavaScript
+- ✅ TypeScript
+- ✅ React
+- ✅ Node.js
+- ✅ Python
+- ✅ Java
+- ✅ OOPS
+- ✅ DSA
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- Axios
+- React Router DOM
+
+### Backend
+- NestJS
+- TypeScript
+- Express (under the hood)
+- Class-Validator
+- UUID
+
+---
+
+## 🖥️ Screenshots
+
+| 🏠 Home | 📘 Learning Page | ❓ Quiz Page |
+|--------|------------------|--------------|
+| ![Home](./screenshots/home.png) | ![Learn](./screenshots/learn.png) | ![Quiz](./screenshots/quiz.png) |
+
+---
+
+## 🌐 Getting Started
+
+### 🔧 Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### 🔄 Clone the Repository
 
 ```bash
-$ npm install
-```
+git clone https://github.com/your-username/interview-prep-app.git
+cd interview-prep-app
+🧑‍💻 Running the Project
+Frontend (Client)
+bash
+Copy
+Edit
+cd client
+npm install
+npm run dev
+Backend (Server)
+bash
+Copy
+Edit
+cd server
+npm install
+npm run start:dev
+🔗 Frontend: http://localhost:5173
+🔗 Backend API: http://localhost:5000
 
-## Compile and run the project
+🔌 API Endpoints
+Questions API
+GET /questions/:topic → Get all quiz questions by topic
 
-```bash
-# development
-$ npm run start
+GET /questions/allinone → Get 5 random questions from all topics
 
-# watch mode
-$ npm run start:dev
+Learning API
+GET /learning/:topic → Get structured learning content for a topic
 
-# production mode
-$ npm run start:prod
-```
+🧪 Sample Question Format (JSON)
+json
+Copy
+Edit
+{
+  "question": "What is the output of console.log(typeof null)?",
+  "options": ["object", "null", "undefined", "number"],
+  "answer": "object"
+}
+🛠️ Enhancements in Progress
+ User authentication and login
 
-## Run tests
+ Timer-based quiz mode
 
-```bash
-# unit tests
-$ npm run test
+ Admin dashboard to manage content
 
-# e2e tests
-$ npm run test:e2e
+ Leaderboard and scoring history
 
-# test coverage
-$ npm run test:cov
-```
+ Code execution snippets (coming soon!)
 
-## Deployment
+💡 Inspiration
+This app was born from the need for a centralized, interactive platform to revise programming fundamentals for interviews. Rather than sifting through scattered resources, InterviewPrep offers a structured, user-friendly solution to prepare with confidence.
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+🤝 Contributing
+Contributions, suggestions, and PRs are welcome!
+Please fork the repo and submit a pull request with improvements or ideas.
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+📄 License
+This project is licensed under the MIT License.
 
-```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
-```
+📬 Contact
+Created by Hemanth Mangala
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+📧 Email: hemanth.email@example.com
 
-## Resources
+🔗 LinkedIn: linkedin.com/in/hemanthmangala
 
-Check out a few resources that may come in handy when working with NestJS:
+🌐 Portfolio: hemanthmangala.dev
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+⭐ Star this repo if you found it useful!
+yaml
+Copy
+Edit
 
-## Support
+---
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Let me know if you want me to:
+- Create a `screenshots/` folder with placeholders for image files
+- Add GitHub badges (e.g., license, build, issues)
+- Help push this to your actual GitHub repo or deploy it live
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Just say the word!
